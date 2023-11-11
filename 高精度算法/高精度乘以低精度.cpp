@@ -23,7 +23,7 @@ int main()
 	string x;
 	int y;
 	vector<int> a;
-	cout << "请依次输入高精度数与低精度数：\n";
+	cout << "璇蜂緷娆¤緭鍏ラ珮绮惧害鏁颁笌浣庣簿搴︽暟锛歕n";
 	cin >> x >> y;
 	for(int i = x.size()-1;i>=0;i--)	a.push_back(x[i]-'0');	
 	vector<int> c = multiply(a , y);
