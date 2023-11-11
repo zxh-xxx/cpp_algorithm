@@ -23,18 +23,18 @@ int main()
 {
 	string a;
 	int b;
-	cout << "ÇëÒÀ´ÎÊäÈë±»³ýÊý¡¢³ýÊý£º" << endl; 
+	cout << "è¯·ä¾æ¬¡è¾“å…¥è¢«é™¤æ•°ã€é™¤æ•°ï¼š" << endl; 
 	cin >> a >> b;
 	vector<int> A;
 	for(int i = a.size()-1;i>=0;i--)	A.push_back(a[i]-'0');
 	int t ;
 	vector<int> c = div(A, b , t); 
-	cout << "ÉÌÎª£º ";
+	cout << "å•†ä¸ºï¼š ";
 	for(int i = c.size()-1;i>=0;i--)
 	{
 		cout << c[i];
 	 } 
 	
-	 cout << endl <<"ÓàÊýÎª£º " <<t << endl;
+	 cout << endl <<"ä½™æ•°ä¸ºï¼š " <<t << endl;
 	return 0;
 } 
