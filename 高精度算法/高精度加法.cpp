@@ -19,7 +19,7 @@ vector<int> add(vector<int> &a,vector<int> &b)
 
 int main()
 {
-	cout << "ÇëÊäÈëÊý¾Ý£º" << endl;
+	cout << "Ã‡Ã«ÃŠÃ¤ÃˆÃ«ÃŠÃ½Â¾ÃÂ£Âº" << endl;
 	 
 	string A , B;
 	vector<int> a , b;
