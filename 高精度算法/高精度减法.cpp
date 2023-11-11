@@ -31,7 +31,7 @@ vector<int> sub(vector<int>&A, vector<int>&B)
 
 int main()
 {
-	cout << "ÇëÒÀ´ÎÊäÈëA £¬B£º" << endl; 
+	cout << "Ã‡Ã«Ã’Ã€Â´ÃŽÃŠÃ¤ÃˆÃ«A Â£Â¬BÂ£Âº" << endl; 
 	string a , b;
 	vector<int> A , B;
 	cin >> a >> b;
